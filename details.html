@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Details - Faraz Hussain</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="cursor.js" defer></script>
+    <script src="navbar.js" defer></script>
+    <script src="theme.js" defer></script>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    
+    <!-- Animated Background -->
+    <div class="details-bg-animation">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+    </div>
+    
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="logo.png" alt="Faraz Hussain" class="logo" onclick="toggleTheme()">
+        </div>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html#home" class="nav-link">Home</a></li>
+            <li><a href="index.html#about" class="nav-link">About</a></li>
+            <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+            <li><a href="index.html#services" class="nav-link">Services</a></li>
+            <li><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-toggle" id="mobileToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-buttons">
+            <a href="index.html" class="hire-btn back-btn">Back to Portfolio <i class="fas fa-arrow-left"></i></a>
+        </div>
+    </nav>
+
+    <section class="details-page">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">Professional Details</h1>
+                <p class="page-subtitle">Complete overview of my educational background, certifications, and achievements</p>
+            </div>
+            
+            <!-- Education Section -->
+            <div class="details-section">
+                <div class="section-header">
+                    <h2 class="section-title">Educational Journey</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="education-timeline">
+                    <div class="timeline-line"></div>
+                    <div class="education-item">
+                        <div class="timeline-dot"></div>
+                        <div class="education-card">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-content">
+                                <div class="education-badge">Master's Degree</div>
+                                <h3>Computer Science - AI Specialization</h3>
+                                <p class="institution"><i class="fas fa-university"></i> University of Technology</p>
+                                <p class="year"><i class="fas fa-calendar"></i> 2018 - 2020</p>
+                                <p class="description">Advanced studies in Artificial Intelligence, Machine Learning, Deep Learning algorithms, and Neural Networks. Thesis on "Generative AI Applications in Real-world Problem Solving".</p>
+                                <div class="achievements">
+                                    <span class="achievement-tag">CGPA: 3.8/4.0</span>
+                                    <span class="achievement-tag">Dean's List</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="timeline-dot"></div>
+                        <div class="education-card">
+                            <div class="education-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="education-content">
+                                <div class="education-badge">Bachelor's Degree</div>
+                                <h3>Software Engineering</h3>
+                                <p class="institution"><i class="fas fa-building"></i> Institute of Engineering & Technology</p>
+                                <p class="year"><i class="fas fa-calendar"></i> 2014 - 2018</p>
+                                <p class="description">Comprehensive foundation in software development, algorithms, data structures, database systems, and software architecture principles.</p>
+                                <div class="achievements">
+                                    <span class="achievement-tag">CGPA: 3.6/4.0</span>
+                                    <span class="achievement-tag">Honor Roll</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications Section -->
+            <div class="details-section">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Certifications</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="certifications-grid">
+                    <div class="cert-item">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="cert-badge">Verified</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Python for Data Science & AI</h3>
+                            <p class="issuer"><i class="fas fa-building"></i> IBM</p>
+                            <p class="year"><i class="fas fa-calendar"></i> 2023</p>
+                            <div class="cert-skills">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Pandas</span>
+                                <span class="skill-tag">NumPy</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="cert-badge">Verified</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Machine Learning Engineer</h3>
+                            <p class="issuer"><i class="fab fa-google"></i> Google Cloud</p>
+                            <p class="year"><i class="fas fa-calendar"></i> 2023</p>
+                            <div class="cert-skills">
+                                <span class="skill-tag">TensorFlow</span>
+                                <span class="skill-tag">ML Ops</span>
+                                <span class="skill-tag">AutoML</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="cert-badge">Verified</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Deep Learning Specialist</h3>
+                            <p class="issuer"><i class="fas fa-microchip"></i> NVIDIA</p>
+                            <p class="year"><i class="fas fa-calendar"></i> 2022</p>
+                            <div class="cert-skills">
+                                <span class="skill-tag">PyTorch</span>
+                                <span class="skill-tag">CUDA</span>
+                                <span class="skill-tag">Computer Vision</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <div class="cert-badge">Verified</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>AWS Solutions Architect</h3>
+                            <p class="issuer"><i class="fab fa-aws"></i> Amazon Web Services</p>
+                            <p class="year"><i class="fas fa-calendar"></i> 2022</p>
+                            <div class="cert-skills">
+                                <span class="skill-tag">EC2</span>
+                                <span class="skill-tag">S3</span>
+                                <span class="skill-tag">Lambda</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <div class="cert-badge">Verified</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Azure AI Engineer</h3>
+                            <p class="issuer"><i class="fab fa-microsoft"></i> Microsoft</p>
+                            <p class="year"><i class="fas fa-calendar"></i> 2023</p>
+                            <div class="cert-skills">
+                                <span class="skill-tag">Azure ML</span>
+                                <span class="skill-tag">Cognitive Services</span>
+                                <span class="skill-tag">Bot Framework</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <div class="cert-badge">Verified</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Docker & Kubernetes</h3>
+                            <p class="issuer"><i class="fas fa-certificate"></i> Docker Inc.</p>
+                            <p class="year"><i class="fas fa-calendar"></i> 2022</p>
+                            <div class="cert-skills">
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Kubernetes</span>
+                                <span class="skill-tag">DevOps</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Info Section -->
+            <div class="details-section">
+                <div class="section-header">
+                    <h2 class="section-title">Additional Information</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="additional-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Location</h3>
+                            <p>Lahore, Punjab, Pakistan</p>
+                            <span class="info-detail">Available for remote work worldwide</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Languages</h3>
+                            <div class="language-list">
+                                <div class="language-item">
+                                    <span class="lang-name">English</span>
+                                    <span class="lang-level">Fluent</span>
+                                </div>
+                                <div class="language-item">
+                                    <span class="lang-name">Urdu</span>
+                                    <span class="lang-level">Native</span>
+                                </div>
+                                <div class="language-item">
+                                    <span class="lang-name">Hindi</span>
+                                    <span class="lang-level">Fluent</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Key Achievements</h3>
+                            <ul class="achievement-list">
+                                <li><i class="fas fa-star"></i> Top 1% AI Developer on GitHub</li>
+                                <li><i class="fas fa-project-diagram"></i> 100+ Successful Projects Delivered</li>
+                                <li><i class="fas fa-users"></i> 50+ Happy Clients Worldwide</li>
+                                <li><i class="fas fa-code-branch"></i> 500+ Open Source Contributions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Interests & Hobbies</h3>
+                            <div class="interests-grid">
+                                <span class="interest-tag"><i class="fas fa-brain"></i> AI Research</span>
+                                <span class="interest-tag"><i class="fab fa-osi"></i> Open Source</span>
+                                <span class="interest-tag"><i class="fas fa-lightbulb"></i> Innovation</span>
+                                <span class="interest-tag"><i class="fas fa-chalkboard-teacher"></i> Teaching</span>
+                                <span class="interest-tag"><i class="fas fa-book"></i> Reading</span>
+                                <span class="interest-tag"><i class="fas fa-camera"></i> Photography</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact CTA -->
+            <div class="details-cta">
+                <div class="cta-content">
+                    <h2>Ready to Work Together?</h2>
+                    <p>Let's discuss your next AI project and bring your ideas to life!</p>
+                    <div class="cta-buttons">
+                        <a href="https://wa.me/923238889250" target="_blank" class="cta-btn primary">
+                            <i class="fab fa-whatsapp"></i> Let's Chat
+                        </a>
+                        <a href="mailto:faraz@example.com" class="cta-btn secondary">
+                            <i class="fas fa-envelope"></i> Send Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
